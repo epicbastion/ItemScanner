@@ -1,0 +1,16 @@
+name: ItemScan
+main: com.hotmail.bstern2011.ItemScan.ItemScan
+version: 1.1
+commands:
+  scanner:
+      description: Allows user to use scanners
+      usage: /scanner [create|remove|set|save|load]
+      permission: scanner.scan
+      permission-message: You don't have permission to use scanner
+permissions:
+  scanner.scan:
+     description: Allows user to make/remove/set their own scanners
+     default: true
+  scanner.admin:
+     description: Allows users to remove/set other peoples scanners, as well as save and load the scanner list
+     default: op
