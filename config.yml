@@ -1,4 +1,3 @@
-defaultamount: 1
+defaultamount: 0
 defaultpulse: 5
 defaultdelay: 10
-defaultkeep: true

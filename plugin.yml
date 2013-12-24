@@ -1,6 +1,6 @@
 name: ItemScan
 main: com.hotmail.bstern2011.ItemScan.ItemScan
-version: 1.1
+version: 1
 commands:
   scanner:
       description: Allows user to use scanners
